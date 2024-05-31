@@ -1,0 +1,135 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+
+
+local Window = OrionLib:MakeWindow({Name = "Fizss Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+
+OrionLib:MakeNotification({
+	Name = "Welcome",
+	Content = "Fizss Hub Loaded",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Credit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+Tab:AddLabel("Library = shlexware")
+
+
+
+Tab:AddLabel("Fizss Hub = Fizss")
+
+
+
+Tab:AddDropdown({
+	Name = "Script",
+	Default = "Maanaaa",
+	Options = {"Maanaaa", "MikeBayraktar"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Universal Script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+Tab:AddButton({
+	Name = "Sound Player",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maan04ka/CodingScripts/main/MusicUI.lua"))()
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "ManaV1ForRoblox",
+	Callback = function()
+      		
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "ManaV2ForRoblox",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maanaaaa/ManaV2ForRoblox/main/MainScript.lua"))()
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Games Script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+Tab:AddButton({
+	Name = "Zombie Attack",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarZombieAttack/main/MikeBayraktarZombieAttack"))()
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Vehicle Legends CARS!",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarVehicleLegends/main/MikeBayraktar",true))()
+  	end    
+})
+
+
+
+Tab:AddDropdown({
+	Name = "Red Light, Green Light (FIX)",
+	Default = "Mobile",
+	Options = {"Mobile", "Pc"},
+	Callback = function(Mobile)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarSquidGame/main/MikeBayraktarSquidGame"))()(Mobile)
+	Callback = function(Pc)
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktar/main/MikeBayraktar",true))()(Pc)
+	end    
+
+
+
+Tab:AddDropdown({
+	Name = "Brookhaven RP",
+	Default = "Telekinesis",
+	Options = {"Telekinesis", "Fly Gui", "Car Fly", "Teleport Gui", "Teleport Tool Gui"},
+	Callback = function(Telekinesis)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktar-/main/Telekinezi",true))()(Telekinesis)
+	Callback = function(Fly Gui)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarFlyGui/main/Fly%20Gui"))()(Fly Gui)
+	Callback = function(Car Fly)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarCarFly/main/MikeBayraktarCarFly"))()(Car Fly)
+	Callback = function(Teleport Gui)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarTeleportGui/main/MikeBayraktarTeleportGui", true))()(Teleport Gui)
+	Callback = function(Teleport Tool Gui)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarTptool/main/MikeBayraktarTpTool",true))()(Teleport Tool Gui)
+	end    
+})
+
+
