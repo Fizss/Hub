@@ -36,24 +36,28 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Section = Tab:AddSection({
+	Name = "Maanaaa"
+})
+
 Tab:AddButton({
 	Name = "Sound Player",
 	Callback = function()
-      		
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maan04ka/CodingScripts/main/MusicUI.lua"))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "ManaV1ForRoblox",
 	Callback = function()
-      		
+      		loadstring(game:HttpGet("https://pastebin.com/raw/JZfhduVe"))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "ManaV2ForRoblox",
 	Callback = function()
-      		
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maanaaaa/ManaV2ForRoblox/main/MainScript.lua"))()
   	end    
 })
 
