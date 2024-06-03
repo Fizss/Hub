@@ -15,8 +15,45 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Section = Tab:AddSection({
+	Name = "Credit"
+})
+
 Tab:AddLabel("Library = shlexware")
 
 Tab:AddLabel("Fizss Hub = Fizss")
 
-Tab:AddLabel("")
+local Section = Tab:AddSection({
+	Name = "Script"
+})
+
+Tab:AddLabel("Maanaaa")
+
+
+local Tab = Window:MakeTab({
+	Name = "Universal Script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Sound Player",
+	Callback = function()
+      		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ManaV1ForRoblox",
+	Callback = function()
+      		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ManaV2ForRoblox",
+	Callback = function()
+      		
+  	end    
+})
+
