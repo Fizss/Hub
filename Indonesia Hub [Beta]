@@ -1,0 +1,139 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Indonesia Hub 271T")
+
+local serv = win:Server("Credit", "#")
+
+local btns = serv:Channel("About Me")
+
+lbls:Label("Indonesia Hub Made by Fizss")
+
+lbls:Label("Fizss from Indonesia")
+
+local btns = serv:Channel("Script")
+
+lbls:Label("Script From ScriptBlox")
+
+win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
+
+local btns = serv:Channel("A")
+
+btns:Button("A Dusty Trip", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+DiscordLib:Notification("Executed", "A Dusty Trip", "Okay!")
+end)
+
+btns:Button("Adopt Me", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JWyhmNz3"))()
+DiscordLib:Notification("Executed", "Eclipse Hub", "Okay!")
+end)
+
+local btns = serv:Channel("B")
+
+btns:Button("Blade Ball", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fizss/Blade-ball/main/Blade%20ball"))()
+DiscordLib:Notification("Executed", "Blade Ball", "Okay!")
+end)
+
+btns:Button("Basically FNF: Remix", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Waza80/scripts-new/main/BasicallyFNF.lua"))()
+DiscordLib:Notification("Executed", "Basically FNF: Remix", "Okay!")
+end)
+
+btns:Button("Brookhaven", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Zfjp2iYF"))()
+DiscordLib:Notification("Executed", "Brookhaven", "Okay!")
+end)
+
+btns:Button("Bitcoin Miner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/LuaProjects/main/AutoFarmBitcoinMiner.lua"))()
+DiscordLib:Notification("Executed", "Unnamed Hub", "Okay!")
+end)
+
+btns:Button("Bubble Gem Simulator", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fizss/Hub/main/Bubble%20Gem%20Simulator"))()
+DiscordLib:Notification("Executed", "Bubble Gem Simulator", "Okay!")
+end)
+
+btns:Button("Blox Fruits", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/SoyEIPekka/BeanHub/main/bloxfruitsnewpc2023'),true))()
+DiscordLib:Notification("Executed", "Bean Hub", "Okay!")
+end)
+
+local btns = serv:Channel("C")
+
+btns:Button("Clicker Simulator", function()
+loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+DiscordLib:Notification("Executed", "Project Meow", "Okay!")
+end)
+
+local btns = serv:Channel("D")
+
+btns:Button("Da Hood", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Margman/whynot/main/Da%20hood%20script%202022"))()
+DiscordLib:Notification("Executed", "Da Hood", "Okay!")
+end)
+
+local btns = serv:Channel("E")
+
+btns:Button("Evade", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PepesGH1/stuff/main/evadeloader.lua"))()
+DiscordLib:Notification("Executed", "Evade", "Okay!")
+end)
+
+local btns = serv:Channel("F")
+
+btns:Button("Fling Things and People", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
+DiscordLib:Notification("Executed", "Fling Things and People", "Okay!")
+end)
+
+local btns = serv:Channel("G")
+
+btns:Button("GEF", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mongusohio/GefMadeBysederYTTv/main/GEFNOSKID", true))()
+DiscordLib:Notification("Executed", "GEF", "Okay!")
+end)
+
+local btns = serv:Channel("H")
+
+btns:Button("Heroes Awakening", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fizss/Hub/main/Heroes%20Awakening", true))()
+DiscordLib:Notification("Executed", "Heroes Awakening", "Okay!")
+end)
+
+local btns = serv:Channel("I")
+
+local btns = serv:Channel("J")
+
+local btns = serv:Channel("K")
+
+local btns = serv:Channel("L")
+
+local btns = serv:Channel("M")
+
+local btns = serv:Channel("N")
+
+local btns = serv:Channel("O")
+
+local btns = serv:Channel("P")
+
+local btns = serv:Channel("Q")
+
+local btns = serv:Channel("R")
+
+local btns = serv:Channel("S")
+
+local btns = serv:Channel("T")
+
+local btns = serv:Channel("U")
+
+local btns = serv:Channel("V")
+
+local btns = serv:Channel("W")
+
+local btns = serv:Channel("X")
+
+local btns = serv:Channel("Y")
+
+local btns = serv:Channel("Z")
