@@ -25,6 +25,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/ma
 DiscordLib:Notification("Executed", "Redz Hub", "Okay!")
 end)
 
+btns:Button("Brookhaven", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script"))()
+DiscordLib:Notification("Executed", "R4D", "Okay!")
+end)
+
 local btns = serv:Channel("C")
 
 local btns = serv:Channel("D")
