@@ -18,6 +18,11 @@ win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
 
 local btns = serv:Channel("A")
 
+btns:Button("Arsenal", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b95e8fecdf824e41f4a030044b055add.lua"))()
+DiscordLib:Notification("Executed", "Thunder Client", "Okay!")
+end)
+
 local btns = serv:Channel("B")
 
 btns:Button("Blox Fruits", function()
