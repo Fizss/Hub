@@ -62,6 +62,11 @@ local btns = serv:Channel("Q")
 
 local btns = serv:Channel("R")
 
+btns:Button("Redcliff City RP", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/BABY!-Redcliff-City-RP-Gui-6261"))()
+DiscordLib:Notification("Executed", "Redcliff City RP Gui", "Okay!")
+end)
+
 local btns = serv:Channel("S")
 
 local btns = serv:Channel("T")
