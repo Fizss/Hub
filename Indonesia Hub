@@ -58,6 +58,11 @@ local btns = serv:Channel("O")
 
 local btns = serv:Channel("P")
 
+btns:Button("Pet Simulator X", function()
+loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
+DiscordLib:Notification("Executed", "BT Project", "Okay!")
+end)
+
 local btns = serv:Channel("Q")
 
 local btns = serv:Channel("R")
