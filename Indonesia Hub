@@ -103,5 +103,3 @@ local btns = serv:Channel("X")
 local btns = serv:Channel("Y")
 
 local btns = serv:Channel("Z")
-
-win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
