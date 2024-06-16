@@ -4,13 +4,13 @@ local win = DiscordLib:Window("Indonesia Hub 271T")
 
 local serv = win:Server("Credit", "#")
 
-local btns = serv:Channel("About Me")
+local lbls = serv:Channel("About Me")
 
 lbls:Label("Indonesia Hub Made by Fizss")
 
 lbls:Label("Fizss from Indonesia")
 
-local btns = serv:Channel("Script")
+local lbls = serv:Channel("Script")
 
 lbls:Label("Script From ScriptBlox")
 
