@@ -103,3 +103,12 @@ local btns = serv:Channel("X")
 local btns = serv:Channel("Y")
 
 local btns = serv:Channel("Z")
+
+win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
+
+serv:Channel("by dawid#7205")
+
+btns:Button("hi", function()
+print("hi")
+DiscordLib:Notification("Executed", "", "Okay!")
+end)
