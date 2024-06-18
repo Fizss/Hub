@@ -27,7 +27,12 @@ local btns = serv:Channel("Find The Noobies")
 
 btns:Button("Papa Noobies", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/uksMWu9i"))()
-DiscordLib:Notification("Executed", "", "Okay!")
+DiscordLib:Notification("Executed", "Papa Noobies", "Okay!")
+end)
+
+btns:Button("Bucket Noobies", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ZuGW4xa4"))()
+DiscordLib:Notification("Executed", "Bucket Noobies", "Okay!")
 end)
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
