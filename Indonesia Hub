@@ -20,7 +20,7 @@ local btns = serv:Channel("Clock's Difficulty Chart Obby")
 
 btns:Button("100K Visit Event", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/FREE-SKIPS-Clock's-Difficulty-Chart-Obby-HARD-Auto-Complete-14137"))()
-DiscordLib:Notification("Executed", "", "Okay!")
+DiscordLib:Notification("Executed", "100K Visit Event", "Okay!")
 end)
 
 local btns = serv:Channel("Find The Noobies")
