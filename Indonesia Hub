@@ -14,7 +14,7 @@ local lbls = serv:Channel("Script")
 
 lbls:Label("Script From ScriptBlox")
 
-local serv = win:Server("HomeMade", "")
+win:Server("HomeMade", "")
 
 local btns = serv:Channel("Clock's Difficulty Chart Obby")
 
