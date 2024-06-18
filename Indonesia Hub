@@ -23,7 +23,12 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/FREE-SKIPS-Clock's-Difficult
 DiscordLib:Notification("Executed", "", "Okay!")
 end)
 
-btns:Seperator()
+local btns = serv:Channel("Find The Noobies")
+
+btns:Button("Papa Noobies", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/uksMWu9i"))()
+DiscordLib:Notification("Executed", "", "Okay!")
+end)
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
 
