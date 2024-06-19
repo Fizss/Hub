@@ -4,7 +4,7 @@ local Window = OrionLib:MakeWindow({Name = "Indonesia Hub", HidePremium = true, 
 
 OrionLib:MakeNotification({
 	Name = "Welcome",
-	Content = "Indonesia Hub",
+	Content = "Indonesia Hub Loaded",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -120,6 +120,19 @@ Tab:AddButton({
 	Name = "40M Visit Event",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastefy.app/HlarxHut/raw"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "2000 Studs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Win",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/CfAKsqsc"))()
   	end    
 })
 
