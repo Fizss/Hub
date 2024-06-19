@@ -1,115 +1,345 @@
-local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local win = DiscordLib:Window("Indonesia Hub 271T")
+local Window = OrionLib:MakeWindow({Name = "Indonesia Hub", HidePremium = true, SaveConfig = true, ConfigFolder = "Indonesia Hub"})
 
-local serv = win:Server("Credit", "")
+OrionLib:MakeNotification({
+	Name = "Welcome",
+	Content = "Indonesia Hub",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
 
-local lbls = serv:Channel("About Me")
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-lbls:Label("Indonesia Hub Made by Fizss")
+Tab:AddLabel("Orion Library = shlexware")
 
-lbls:Label("Fizss from Indonesia")
+Tab:AddLabel("Indonesia Hub = Fizss")
 
-local lbls = serv:Channel("Script")
+Tab:AddDropdown({
+	Name = "Script",
+	Default = "ScriptBlox",
+	Options = {"ScriptBlox", "Fizss"},
+	Callback = function(Value)
+		print(value)
+	end    
+})
 
-lbls:Label("Script From ScriptBlox")
+local Tab = Window:MakeTab({
+	Name = "Clock's Difficulty Chart Obby",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-win:Server("HomeMade", "")
+local Section = Tab:AddSection({
+	Name = "Map"
+})
 
-local btns = serv:Channel("Clock's Difficulty Chart Obby")
+Tab:AddButton({
+	Name = "Practice Field",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/hXlAniEn/raw"))()
+  	end    
+})
 
-btns:Button("100K Visit Event", function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/FREE-SKIPS-Clock's-Difficulty-Chart-Obby-HARD-Auto-Complete-14137"))()
-DiscordLib:Notification("Executed", "100K Visit Event", "Okay!")
-end)
+Tab:AddButton({
+	Name = "Finished Event",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/eb41mqWZ"))()
+  	end    
+})
 
-local btns = serv:Channel("Find The Noobies")
+local Section = Tab:AddSection({
+	Name = "Difficulty"
+})
 
-btns:Button("Papa Noobies", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/uksMWu9i"))()
-DiscordLib:Notification("Executed", "Papa Noobies", "Okay!")
-end)
+Tab:AddButton({
+	Name = "Effortless",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/8SFWPssT"))()
+  	end    
+})
 
-btns:Button("Bucket Noobies", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/ZuGW4xa4"))()
-DiscordLib:Notification("Executed", "Bucket Noobies", "Okay!")
-end)
+Tab:AddButton({
+	Name = "The End",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/ECDULRw5"))()
+  	end    
+})
 
-win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
+local Section = Tab:AddSection({
+	Name = "Finished Event"
+})
 
-local btns = serv:Channel("A")
+Tab:AddButton({
+	Name = "100K Visit Event",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/wfSLn2HU"))()
+  	end    
+})
 
-btns:Button("Arsenal", function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b95e8fecdf824e41f4a030044b055add.lua"))()
-DiscordLib:Notification("Executed", "Thunder Client", "Okay!")
-end)
+Tab:AddButton({
+	Name = "1M Visit Event",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/B92cQoIM/raw"))()
+  	end    
+})
 
-local btns = serv:Channel("B")
+Tab:AddButton({
+	Name = "2M Visit Event",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/XnaES9ew/raw"))()
+  	end    
+})
 
-btns:Button("Blox Fruits", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
-DiscordLib:Notification("Executed", "Redz Hub", "Okay!")
-end)
+Tab:AddButton({
+	Name = "5M Visit Event",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/GRZoMQHs/raw"))()
+  	end    
+})
 
-btns:Button("Brookhaven", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script"))()
-DiscordLib:Notification("Executed", "R4D", "Okay!")
-end)
+Tab:AddButton({
+	Name = "10M Visit Event",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/r9mfucOZ/raw"))()
+  	end    
+})
 
-local btns = serv:Channel("C")
+Tab:AddButton({
+	Name = "30M Visit Event",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/McY71Rjc/raw"))()
+  	end    
+})
 
-local btns = serv:Channel("D")
+Tab:AddButton({
+	Name = "40M Visit Event",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/HlarxHut/raw"))()
+  	end    
+})
 
-local btns = serv:Channel("E")
+local Tab = Window:MakeTab({
+	Name = "Find The Noobies",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-local btns = serv:Channel("F")
+Tab:AddButton({
+	Name = "Papa Noobies",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/uksMWu9i"))()
+  	end    
+})
 
-local btns = serv:Channel("G")
+Tab:AddButton({
+	Name = "Bucket Noobies",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/ZuGW4xa4"))()
+  	end    
+})
 
-local btns = serv:Channel("H")
+Tab:AddButton({
+	Name = "Pixel Noobies",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/nBX9v47j"))()
+  	end    
+})
 
-local btns = serv:Channel("I")
+Tab:AddButton({
+	Name = "Normal Noobies",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/gcr9SBJ4"))()
+  	end    
+})
 
-local btns = serv:Channel("J")
+Tab:AddButton({
+	Name = "Grandpa Noobies",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/r7dbGDqu"))()
+  	end    
+})
 
-local btns = serv:Channel("K")
+local Tab = Window:MakeTab({
+	Name = "Games",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-local btns = serv:Channel("L")
+local Section = Tab:AddSection({
+	Name = "A"
+})
 
-local btns = serv:Channel("M")
+Tab:AddButton({
+	Name = "Adopt Me",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/6NJigYsb"))()
+  	end    
+})
 
-local btns = serv:Channel("N")
+Tab:AddButton({
+	Name = "Arsenal",
+	Callback = function()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b95e8fecdf824e41f4a030044b055add.lua"))()
+  	end    
+})
 
-local btns = serv:Channel("O")
+local Section = Tab:AddSection({
+	Name = "B"
+})
 
-local btns = serv:Channel("P")
+Tab:AddButton({
+	Name = "Blox Fruits",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+  	end    
+})
 
-btns:Button("Pet Simulator X", function()
-loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
-DiscordLib:Notification("Executed", "BT Project", "Okay!")
-end)
+Tab:AddButton({
+	Name = "Brookhaven",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script"))()
+  	end    
+})
 
-local btns = serv:Channel("Q")
+local Section = Tab:AddSection({
+	Name = "C"
+})
 
-local btns = serv:Channel("R")
+local Section = Tab:AddSection({
+	Name = "D"
+})
 
-btns:Button("Redcliff City RP", function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/BABY!-Redcliff-City-RP-Gui-6261"))()
-DiscordLib:Notification("Executed", "Redcliff City RP Gui", "Okay!")
-end)
+local Section = Tab:AddSection({
+	Name = "E"
+})
 
-local btns = serv:Channel("S")
+local Section = Tab:AddSection({
+	Name = "F"
+})
 
-local btns = serv:Channel("T")
+local Section = Tab:AddSection({
+	Name = "G"
+})
 
-local btns = serv:Channel("U")
+Tab:AddButton({
+	Name = "Giant Simulator",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/svrW0cxr"))()
+  	end    
+})
 
-local btns = serv:Channel("V")
+local Section = Tab:AddSection({
+	Name = "H"
+})
 
-local btns = serv:Channel("W")
+local Section = Tab:AddSection({
+	Name = "I"
+})
 
-local btns = serv:Channel("X")
+local Section = Tab:AddSection({
+	Name = "J"
+})
 
-local btns = serv:Channel("Y")
+local Section = Tab:AddSection({
+	Name = "K"
+})
 
-local btns = serv:Channel("Z")
+local Section = Tab:AddSection({
+	Name = "L"
+})
+
+local Section = Tab:AddSection({
+	Name = "M"
+})
+
+local Section = Tab:AddSection({
+	Name = "N"
+})
+
+Tab:AddButton({
+	Name = "No-Scope Arcade",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "O"
+})
+
+local Section = Tab:AddSection({
+	Name = "P"
+})
+
+Tab:AddButton({
+	Name = "Phantom Forces",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pet Simulator X",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Q"
+})
+
+local Section = Tab:AddSection({
+	Name = "R"
+})
+
+Tab:AddButton({
+	Name = "Redcliff",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/pGYnNiku"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "S"
+})
+
+Tab:AddButton({
+	Name = "Strucid",
+	Callback = function()
+      		loadstring(game:HttpGet'https://raw.githubusercontent.com/ao-0/methamphetamine-solutions/main/Loader.lua')("JOIN https://discord.gg/curPv7uhQc", "methamphetamine.solutions by xiba#5806")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "T"
+})
+
+local Section = Tab:AddSection({
+	Name = "U"
+})
+
+local Section = Tab:AddSection({
+	Name = "V"
+})
+
+local Section = Tab:AddSection({
+	Name = "W"
+})
+
+local Section = Tab:AddSection({
+	Name = "X"
+})
+
+local Section = Tab:AddSection({
+	Name = "Y"
+})
+
+local Section = Tab:AddSection({
+	Name = "Z"
+})
