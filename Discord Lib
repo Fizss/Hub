@@ -28,22 +28,6 @@ Judul.TextSize = 20.000
 Judul.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Judul.BackgroundTransparency = 1.000
 
-local TombolTutup = Instance.new("TextButton")
-TombolTutup.Parent = LayarGui
-TombolTutup.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
-TombolTutup.Position = UDim2.new(0.76, 45, 0.14, -33)
-TombolTutup.Size = UDim2.new(0.02, 6, 0.04, 6)
-TombolTutup.Font = Enum.Font.SourceSans
-TombolTutup.Text = "×"
-TombolTutup.TextColor3 = Color3.fromRGB(255, 255, 255)
-TombolTutup.TextSize = 30.000
-TombolTutup.ClipsDescendants = true
-TombolTutup.Active = true
-TombolTutup.Draggable = true
-TombolTutup.MouseButton1Click:Connect(function()
-    BingkaiUtama.Visible = false
-end)
-
 local TombolBuka = Instance.new("TextButton")
 TombolBuka.Parent = LayarGui
 TombolBuka.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
@@ -58,6 +42,22 @@ TombolBuka.Active = true
 TombolBuka.Draggable = true
 TombolBuka.MouseButton1Click:Connect(function()
     BingkaiUtama.Visible = true
+end)
+
+local TombolTutup = Instance.new("TextButton")
+TombolTutup.Parent = LayarGui
+TombolTutup.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+TombolTutup.Position = UDim2.new(0.76, 45, 0.14, -33)
+TombolTutup.Size = UDim2.new(0.02, 6, 0.04, 6)
+TombolTutup.Font = Enum.Font.SourceSans
+TombolTutup.Text = "×"
+TombolTutup.TextColor3 = Color3.fromRGB(255, 255, 255)
+TombolTutup.TextSize = 30.000
+TombolTutup.ClipsDescendants = true
+TombolTutup.Active = true
+TombolTutup.Draggable = true
+TombolTutup.MouseButton1Click:Connect(function()
+    BingkaiUtama.Visible = false
 end)
 
 local TombolServerUniversal = Instance.new("TextButton")
