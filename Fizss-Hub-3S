@@ -1,63 +1,33 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local screenGui = Instance.new("ScreenGui")
+local frame = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local njct = Instance.new("TextButton")
 
-local Window = OrionLib:MakeWindow({Name = "Fizss Hub 3S", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-OrionLib:MakeNotification({
-	Name = "Welcome",
-	Content = "Fizss Hub Loaded",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
+frame.Size = UDim2.new(0.3, 0, 0.4, 0)
+frame.Position = UDim2.new(0.35, 0, 0.3, 0)
+frame.BackgroundColor3 = Color3.new(0, 0, 0)
+frame.Parent = screenGui
 
-local Tab = Window:MakeTab({
-	Name = "Credit",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
+title.Size = UDim2.new(1, 0, 0.2, 0)
+title.Position = UDim2.new(0, 0, 0, 0)
+title.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
+title.Text = "Orion Nebula"
+title.TextColor3 = Color3.new(1, 1, 1)
+title.Font = Enum.Font.GothamBlack
+title.TextSize = 24
+title.Parent = frame
 
-local Section = Tab:AddSection({
-	Name = "Credit"
-})
-
-Tab:AddLabel("Library = shlexware")
-
-Tab:AddLabel("Fizss Hub = Fizss")
-
-local Section = Tab:AddSection({
-	Name = "Script"
-})
-
-Tab:AddLabel("Maanaaa")
-
-
-local Tab = Window:MakeTab({
-	Name = "Universal Script",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "Maanaaa"
-})
-
-Tab:AddButton({
-	Name = "Sound Player",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maan04ka/CodingScripts/main/MusicUI.lua"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "ManaV1ForRoblox",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/JZfhduVe"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "ManaV2ForRoblox",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maanaaaa/ManaV2ForRoblox/main/MainScript.lua"))()
-  	end    
-})
-
+njct.Size = UDim2.new(0.8, 0, 0.2, 0)
+njct.Position = UDim2.new(0.1, 0, 0.55, 0)
+njct.BackgroundColor3 = Color3.new(0.3, 0.3, 0.3)
+njct.Text = "Inject"
+njct.TextColor3 = Color3.new(1, 1, 1)
+njct.Font = Enum.Font.GothamBlack
+njct.TextSize = 18
+njct.Parent = frame
+njct.MouseButton1Click:Connect(function()
+    screenGui:Destroy()
+    loadstring(game:HttpGet(""))()
+end)
