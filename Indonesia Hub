@@ -1,3 +1,6 @@
+-- Gui to Lua
+-- Version: 0.8
+
 local LayarGui = Instance.new("ScreenGui")
 LayarGui.Parent = game.CoreGui
 
@@ -23,7 +26,7 @@ Judul.Text = "Discord Library"
 Judul.TextColor3 = Color3.fromRGB(255, 255, 255)
 Judul.TextSize = 20.000
 Judul.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Judul.BackgroundTransparency = 1.0
+Judul.BackgroundTransparency = 1.000
 
 local TombolTutup = Instance.new("TextButton")
 TombolTutup.Parent = LayarGui
