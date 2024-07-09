@@ -23,6 +23,7 @@ Judul.Text = "Discord Library"
 Judul.TextColor3 = Color3.fromRGB(255, 255, 255)
 Judul.TextSize = 20.000
 Judul.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Judul.BackgroundTransparency = 1.0
 
 local TombolTutup = Instance.new("TextButton")
 TombolTutup.Parent = LayarGui
@@ -52,15 +53,15 @@ TombolBuka.MouseButton1Click:Connect(function()
     BingkaiUtama.Visible = true
 end)
 
-local TombolServer = Instance.new("TextButton")
-TombolServer.Text = "Universal"
-TombolServer.TextColor3 = Color3.fromRGB(255, 255, 255)
-TombolServer.Parent = BingkaiUtama
-TombolServer.ClipsDescendants = true
-TombolServer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TombolServer.Size = UDim2.new(0, 50, 0, 50)
-TombolServer.Position = UDim2.new(0.4682, -307, 0.49, -165)
-TombolServer.BorderColor3 = Color3.fromRGB(255, 255, 255)
+local TombolServerUniversal = Instance.new("TextButton")
+TombolServerUniversal.Text = "Universal"
+TombolServerUniversal.TextColor3 = Color3.fromRGB(255, 255, 255)
+TombolServerUniversal.Parent = BingkaiUtama
+TombolServerUniversal.ClipsDescendants = true
+TombolServerUniversal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TombolServerUniversal.Size = UDim2.new(0, 50, 0, 50)
+TombolServerUniversal.Position = UDim2.new(0.4682, -307, 0.49, -165)
+TombolServerUniversal.BorderColor3 = Color3.fromRGB(255, 255, 255)
 
 local TombolLainnya = Instance.new("TextButton")
 TombolLainnya.Text = "Others"
