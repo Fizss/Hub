@@ -1,5 +1,5 @@
 -- Gui to Lua
--- Version: 0.8
+-- Version: 0.9
 
 local LayarGui = Instance.new("ScreenGui")
 LayarGui.Parent = game.CoreGui
@@ -10,6 +10,7 @@ BingkaiUtama.ClipsDescendants = true
 BingkaiUtama.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 BingkaiUtama.Size = UDim2.new(0, 679, 0, 393)
 BingkaiUtama.Position = UDim2.new(0.4682, -307, 0.49, -192)
+BingkaiUtama.BackgroundTransparency = 1.000
 
 local UIPojok = Instance.new("UICorner")
 UIPojok.Parent = LayarGui
@@ -69,6 +70,16 @@ TombolServerUniversal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TombolServerUniversal.Size = UDim2.new(0, 50, 0, 50)
 TombolServerUniversal.Position = UDim2.new(0.4682, -307, 0.49, -165)
 TombolServerUniversal.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+local TombolServerUniversalSkrip = Instance.new("TextLabel")
+TombolServerUniversalSkrip.Text = "Script"
+TombolServerUniversalSkrip.TextColor3 = Color3.fromRGB(255, 255, 255)
+TombolServerUniversalSkrip.Parent = BingkaiUtama
+TombolServerUniversalSkrip.ClipsDescendants = true
+TombolServerUniversalSkrip.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TombolServerUniversalSkrip.Size = UDim2.new(0, 50, 0, 50)
+TombolServerUniversalSkrip.Position = UDim2.new(0.4682, -307, 0.49, -175)
+TombolServerUniversalSkrip.BorderColor3 = Color3.fromRGB(255, 255, 255)
 
 local TombolLainnya = Instance.new("TextButton")
 TombolLainnya.Text = "Others"
