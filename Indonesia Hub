@@ -1,358 +1,74 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-
-local Window = OrionLib:MakeWindow({Name = "Indonesia Hub", HidePremium = true, SaveConfig = true, ConfigFolder = "Indonesia Hub"})
-
-OrionLib:MakeNotification({
-	Name = "Welcome",
-	Content = "Indonesia Hub Loaded",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
-
-local Tab = Window:MakeTab({
-	Name = "Credits",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddLabel("Orion Library = shlexware")
-
-Tab:AddLabel("Indonesia Hub = Fizss")
-
-Tab:AddDropdown({
-	Name = "Script",
-	Default = "ScriptBlox",
-	Options = {"ScriptBlox", "Fizss"},
-	Callback = function(Value)
-		print(value)
-	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "Clock's Difficulty Chart Obby",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "Map"
-})
-
-Tab:AddButton({
-	Name = "Practice Field",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/hXlAniEn/raw"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Finished Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/eb41mqWZ"))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "Difficulty"
-})
-
-Tab:AddButton({
-	Name = "Effortless",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/8SFWPssT"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "The End",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/ECDULRw5"))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "Finished Event"
-})
-
-Tab:AddButton({
-	Name = "100K Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/wfSLn2HU"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "1M Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/B92cQoIM/raw"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "2M Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/XnaES9ew/raw"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "5M Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/GRZoMQHs/raw"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "10M Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/r9mfucOZ/raw"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "30M Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/McY71Rjc/raw"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "40M Visit Event",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastefy.app/HlarxHut/raw"))()
-  	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "2000 Studs",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "Win",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/CfAKsqsc"))()
-  	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "Find The Noobies",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "Papa Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/uksMWu9i"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Bucket Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/ZuGW4xa4"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Pixel Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/nBX9v47j"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Normal Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/gcr9SBJ4"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Grandpa Noobies",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/r7dbGDqu"))()
-  	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "Games",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "A"
-})
-
-Tab:AddButton({
-	Name = "Adopt Me",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/6NJigYsb"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Arsenal",
-	Callback = function()
-      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b95e8fecdf824e41f4a030044b055add.lua"))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "B"
-})
-
-Tab:AddButton({
-	Name = "Blox Fruits",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Brookhaven",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script"))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "C"
-})
-
-local Section = Tab:AddSection({
-	Name = "D"
-})
-
-local Section = Tab:AddSection({
-	Name = "E"
-})
-
-local Section = Tab:AddSection({
-	Name = "F"
-})
-
-local Section = Tab:AddSection({
-	Name = "G"
-})
-
-Tab:AddButton({
-	Name = "Giant Simulator",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/svrW0cxr"))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "H"
-})
-
-local Section = Tab:AddSection({
-	Name = "I"
-})
-
-local Section = Tab:AddSection({
-	Name = "J"
-})
-
-local Section = Tab:AddSection({
-	Name = "K"
-})
-
-local Section = Tab:AddSection({
-	Name = "L"
-})
-
-local Section = Tab:AddSection({
-	Name = "M"
-})
-
-local Section = Tab:AddSection({
-	Name = "N"
-})
-
-Tab:AddButton({
-	Name = "No-Scope Arcade",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua"))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "O"
-})
-
-local Section = Tab:AddSection({
-	Name = "P"
-})
-
-Tab:AddButton({
-	Name = "Phantom Forces",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Pet Simulator X",
-	Callback = function()
-      		loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "Q"
-})
-
-local Section = Tab:AddSection({
-	Name = "R"
-})
-
-Tab:AddButton({
-	Name = "Redcliff",
-	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/pGYnNiku"))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "S"
-})
-
-Tab:AddButton({
-	Name = "Strucid",
-	Callback = function()
-      		loadstring(game:HttpGet'https://raw.githubusercontent.com/ao-0/methamphetamine-solutions/main/Loader.lua')("JOIN https://discord.gg/curPv7uhQc", "methamphetamine.solutions by xiba#5806")
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "T"
-})
-
-local Section = Tab:AddSection({
-	Name = "U"
-})
-
-local Section = Tab:AddSection({
-	Name = "V"
-})
-
-local Section = Tab:AddSection({
-	Name = "W"
-})
-
-local Section = Tab:AddSection({
-	Name = "X"
-})
-
-local Section = Tab:AddSection({
-	Name = "Y"
-})
-
-local Section = Tab:AddSection({
-	Name = "Z"
-})
+local LayarGui = Instance.new("ScreenGui")
+LayarGui.Parent = game.CoreGui
+
+local BingkaiUtama = Instance.new("Frame")
+BingkaiUtama.Parent = LayarGui
+BingkaiUtama.ClipsDescendants = true
+BingkaiUtama.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BingkaiUtama.Size = UDim2.new(0, 679, 0, 393)
+BingkaiUtama.Position = UDim2.new(0.4682, -307, 0.49, -192)
+
+local UIPojok = Instance.new("UICorner")
+UIPojok.Parent = LayarGui
+UIPojok.CornerRadius = UDim.new(0, 10)
+
+local Judul = Instance.new("TextLabel")
+Judul.Parent = BingkaiUtama
+Judul.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Judul.ClipsDescendants = true
+Judul.Position = UDim2.new(0.000001, -25, 0.0196078438, -20)
+Judul.Size = UDim2.new(0, 210, 0, 50)
+Judul.Font = Enum.Font.GothamBlack
+Judul.Text = "Discord Library"
+Judul.TextColor3 = Color3.fromRGB(255, 255, 255)
+Judul.TextSize = 20.000
+Judul.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+local TombolTutup = Instance.new("TextButton")
+TombolTutup.Parent = LayarGui
+TombolTutup.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+TombolTutup.Position = UDim2.new(0.76, 45, 0.14, -33)
+TombolTutup.Size = UDim2.new(0.02, 6, 0.04, 6)
+TombolTutup.Font = Enum.Font.SourceSans
+TombolTutup.Text = "×"
+TombolTutup.TextColor3 = Color3.fromRGB(255, 255, 255)
+TombolTutup.TextSize = 30.000
+TombolTutup.ClipsDescendants = true
+TombolTutup.MouseButton1Click:Connect(function()
+    LayarGui:Destroy()
+end)
+
+local TombolBuka = Instance.new("TextButton")
+TombolBuka.Parent = LayarGui
+TombolBuka.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+TombolBuka.Position = UDim2.new(0.76, 17, 0.14, -33)
+TombolBuka.Size = UDim2.new(0.02, 6, 0.04, 6)
+TombolBuka.Font = Enum.Font.SourceSans
+TombolBuka.Text = "+"
+TombolBuka.TextColor3 = Color3.fromRGB(255, 255, 255)
+TombolBuka.TextSize = 30.000
+TombolBuka.ClipsDescendants = true
+TombolBuka.MouseButton1Click:Connect(function()
+    BingkaiUtama.Visible = true
+end)
+
+local TombolServer = Instance.new("TextButton")
+TombolServer.Text = "Universal"
+TombolServer.TextColor3 = Color3.fromRGB(255, 255, 255)
+TombolServer.Parent = BingkaiUtama
+TombolServer.ClipsDescendants = true
+TombolServer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TombolServer.Size = UDim2.new(0, 50, 0, 50)
+TombolServer.Position = UDim2.new(0.4682, -307, 0.49, -165)
+TombolServer.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+local TombolLainnya = Instance.new("TextButton")
+TombolLainnya.Text = "Others"
+TombolLainnya.TextColor3 = Color3.fromRGB(255, 255, 255)
+TombolLainnya.TextSize = 20.000
+TombolLainnya.Parent = BingkaiUtama
+TombolLainnya.ClipsDescendants = true
+TombolLainnya.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TombolLainnya.Size = UDim2.new(0, 165, 0, 30)
+TombolLainnya.Position = UDim2.new(0.4682, -240, 0.49, -125)
+TombolLainnya.BorderColor3 = Color3.fromRGB(255, 255, 255)
