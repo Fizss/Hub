@@ -38,8 +38,10 @@ TombolTutup.Text = "×"
 TombolTutup.TextColor3 = Color3.fromRGB(255, 255, 255)
 TombolTutup.TextSize = 30.000
 TombolTutup.ClipsDescendants = true
+TombolTutup.Active = true
+TombolTutup.Draggable = true
 TombolTutup.MouseButton1Click:Connect(function()
-    LayarGui:Destroy()
+    BingkaiUtama.Visible = false
 end)
 
 local TombolBuka = Instance.new("TextButton")
@@ -52,6 +54,8 @@ TombolBuka.Text = "+"
 TombolBuka.TextColor3 = Color3.fromRGB(255, 255, 255)
 TombolBuka.TextSize = 30.000
 TombolBuka.ClipsDescendants = true
+TombolBuka.Active = true
+TombolBuka.Draggable = true
 TombolBuka.MouseButton1Click:Connect(function()
     BingkaiUtama.Visible = true
 end)
