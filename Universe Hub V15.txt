@@ -1,0 +1,1063 @@
+--[[ [wfuscator] error: luaparser AST parser raised error: Error: Expecting one of 'end' at line 531, column 4; src: 
+--[<esc>[ compiled with [luau with classes] compiler v4.6 ]<esc>] __author__ = "@NWhut <https://whut.dev/>"	local getclassconstructor do _typeof = typeof; typeof = function(object) local object_type = _typeof(object); if object_type == "table" then local meta = getmetatable(object); if meta then if meta.__LUAUWITHCLASSES_INTERNAL_DO_NOT_MODIFY__CONSTRUCTOR_REFERENCE then object_type = "classinstance" end; if meta.__LUAUWITHCLASSES_INTERNAL_DO_NOT_MODIFY__ISCONSTRUCTOR then object_type = "classconstructor" end end end; return object_type end; getclassconstructor = function(object) if typeof(object) == "classinstance" then return getmetatable(object).__LUAUWITHCLASSES_INTERNAL_DO_NOT_MODIFY__CONSTRUCTOR_REFERENCE end end end; local super = function(self) return getmetatable(self).__LUAUWITHCLASSES_INTERNAL_DO_NOT_MODIFY__INHERITCLASSCONSTRUCTORS[1] end;local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/UI-Libraries/refs/heads/main/Valiant/source.lua"))()
+local Window = Library:CreateWindow("Universe Hub V1.5", "By Fizss, Rafif, Revanz, Ifal", 10044538000)
+local Noobies = Window:CreateTab("Find The Noobies")
+
+local Main = Noobies:CreateFrame("Main")
+local City = Noobies:CreateFrame("City")
+local Space = Noobies:CreateFrame("Space")
+local Aquatic = Noobies:CreateFrame("Aquatic")
+local Exclusive = Noobies:CreateFrame("Exclusive")
+local Maps = Noobies:CreateFrame("Maps")
+local Title = Noobies:CreateFrame("Title")
+
+Label = Main:CreateLabel("Common Noobies (All)")
+Button = Main:CreateButton("Normal Noobie", "Get Normal Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-324.55, 13.90, -783.49)) end)
+Button = Main:CreateButton("Ads Noobie", "Get Ads Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-266.43, 52.18, -537.20)) end)
+Button = Main:CreateButton("Adventurer Noobie", "Get Adventurer Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-395, 10, -569)) end)
+Button = Main:CreateButton("Bucket Noobie", "Get Bucket Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-278, 12, -800)) end)
+Button = Main:CreateButton("Cashier Noobie", "Get Cashier Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-160, 10, -654)) end)
+Button = Main:CreateButton("Chillin Noobie", "Get Chillin Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-368, 9, -555)) end)
+Button = Main:CreateButton("Clothing Staff Noobie", "Get Clothing Staff Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-151, 13, -760)) end)
+Button = Main:CreateButton("Cool Noobie", "Get Cool Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-418, 10, -660)) end)
+Button = Main:CreateButton("Female Noobie", "Get Female Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-166, 25, -658)) end)
+Button = Main:CreateButton("Gangster Noobie", "Get Gangster Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-410, 9, -741)) end)
+Button = Main:CreateButton("Grandma Noobie", "Get Grandma Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-263, 13, -683)) end)
+Button = Main:CreateButton("Grandpa Noobie", "Get Grandpa Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-372, 13, -767)) end)
+Button = Main:CreateButton("Injured Noobie", "Get Injured Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-398, 13, -682)) end)
+Button = Main:CreateButton("Lily Pad Noobie", "Get Lily Pad Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-112, 8, -956)) end)
+Button = Main:CreateButton("Mama Noobie", "Get Mama Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-158, 14, -787)) end)
+Button = Main:CreateButton("Papa Noobie", "Get Papa Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-251, 12, -770)) end)
+Button = Main:CreateButton("Smartphone Noobie", "Get Smartphone Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-250, 9, -939)) end)
+Button = Main:CreateButton("Spray Noobie", "Get Spray Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-455, 22, -896)) end)
+Button = Main:CreateButton("Thief Noobie", "Get Thief Noobie", function() loadstring(game:HttpGet("https://pastebin.com/raw/S56GARCP"))() end)
+
+Label = Main:CreateLabel("Uncommon Noobies")
+Button = Main:CreateButton("Abandoned Noobie", "Get Abandoned Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-312, -29, -521)) end)
+Button = Main:CreateButton("Bush Noobie", "Get Bush Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-574, 6, -615)) end)
+Button = Main:CreateButton("Cinema Noobie", "Get Cinema Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-429, 49, -1605)) end)
+Button = Main:CreateButton("Cleaning Noobie", "Complete The Quest To Get The Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-192, 10, -687)) end)
+Button = Main:CreateButton("Crystal Noobie", "Get Crystal Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-214, 12, -1606)) end)
+Button = Main:CreateButton("Farmer Noobie", "Get Farmer Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-497, 9, -645)) end)
+Button = Main:CreateButton("Farmer Noobie (Alt)", "Get Farmer Noobie (Alternative)", function() loadstring(game:HttpGet("https://pastebin.com/raw/LrENfnxW"))() end)
+Button = Main:CreateButton("Farmer Noobie (Quest)", "Get Farmer Noobie Quest (Beta)", function() loadstring(game:HttpGet("https://pastebin.com/raw/kCYDJ1US"))() end)
+Button = Main:CreateButton("Fire Noobie", "Get Fire Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-361, -11, -526)) end)
+Button = Main:CreateButton("Fisherman Noobie", "Get Fisherman Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-41, 12, -923)) end)
+Button = Main:CreateButton("Food Inspector Noobie", "Get Food Inspector Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-142, 9, -635)) end)
+Button = Main:CreateButton("Kitten Noobie", "Get Kitten Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-259, 52, -683)) end)
+Button = Main:CreateButton("Lady Bug Noobie", "Wait Until You Get Lady Bug Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-337.6, 4.5, -563.84)) end)
+Button = Main:CreateButton("Lumberjack Noobie", "Get Lumberjack Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-339, 11, -538)) end)
+Button = Main:CreateButton("Lumberjack Noobie (Alt)", "Get Lumberjack Noobie (Alternative)", function() loadstring(game:HttpGet("https://pastebin.com/raw/GC6upEtn"))() end)
+Button = Main:CreateButton("Lumberjack Noobie (Quest)", "Get Lumberjack Noobie Quest (Beta)", function() loadstring(game:HttpGet("https://pastebin.com/raw/Li56Rghw"))() end)
+Button = Main:CreateButton("Lumberjack Noobie (Axe)", "Get Lumberjack Noobie Axe", function() loadstring(game:HttpGet("https://pastebin.com/raw/Zzjz9VCw"))() end)
+Button = Main:CreateButton("Painting Noobie", "Get Painting Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-189.82, 13.08, -645.58)) end)
+Button = Main:CreateButton("Sakura Noobie", "Get Sakura Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-390, 40, -353)) end)
+Button = Main:CreateButton("Samurai Noobie", "Get Samurai Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-355, 40, -313)) end)
+Button = Main:CreateButton("Shopping Noobie", "Get Shopping Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-327.76, 12.8, -667))
+Button = Main:CreateButton("Shopping Noobie (Alt)", "Get Shopping Noobie (Alternative)", function() loadstring(game:HttpGet("https://pastebin.com/raw/Fb5NrmST"))()
+Button = Main:CreateButton("Shopping Noobie (Quest)", "Get Shopping Noobie Quest (Beta)", function() loadstring(game:HttpGet("https://pastebin.com/raw/HrbEuTLN"))() end)
+Button = Main:CreateButton("Skeleton Noobie", "Get Skeleton Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-227, 10, -1488)) end)
+Button = Main:CreateButton("Stone Noobie", "Get Stone Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-62, 12, -1453)) end)
+Button = Main:CreateButton("Toy Noobie", "Get Toy Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-172.69, 21.59, -582.73)) end)
+Button = Main:CreateButton("TV Noobie", "Get TV Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-350, 35, -1611)) end)
+Button = Main:CreateButton("Zombie Noobie", "Get Zombie Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-331, -32, -1740)) end)
+
+Label = Main:CreateLabel("Rare Noobies (All)")
+Button = Main:CreateButton("Dirt Noobie", "Get Dirt Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-255, 9, -971)) end)
+Button = Main:CreateButton("Mushroom Noobie", "Get Mushroom Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-406, 385, -818)) end)
+Button = Main:CreateButton("Shadow Noobie", "Get Shadow Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-280, 12, -1479)) end)
+Button = Main:CreateButton("Speaker Noobie", "Get Speaker Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-443, 53, -1578)) end)
+
+Label = Main:CreateLabel("Epic Noobies")
+Button = Main:CreateButton("Bubble Noobie", "Get Bubble Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-96, 36, -1703)) end)
+Button = Main:CreateButton("Cloud Noobie", "Get Cloud Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3790, -3, -1062)) end)
+Button = Main:CreateButton("Crate Noobie", "Get Crate Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-67, 23, -1507)) end)
+Button = Main:CreateButton("Mimic Noobie", "Get Mimic Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-601, 9, -415)) end)
+Button = Main:CreateButton("Pixel Noobie", "Get Pixel Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(569, -82, -2902)) end)
+Button = Main:CreateButton("Water Noobie", "Get Water Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(111, 15, -917)) end)
+
+Label = Main:CreateLabel("Legendary Noobies")
+Button = Main:CreateButton("Dead Tree Noobie", "Get Dead Tree Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-383, 64, -921)) end)
+Button = Main:CreateButton("Glass Noobie", "Get Glass Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-428.50, 72.42, -1688.16)) end)
+Button = Main:CreateButton("Glow Noobie", "Get Glow Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-482.26, 41.58, -1648.69)) end)
+Button = Main:CreateButton("Knight Noobie", "Get Knight Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2408, 103, -46)) end)
+Button = Main:CreateButton("Neon Noobie", "Get Neon Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-645.25, 44.62, -1489.98)) end)
+
+Label = Main:CreateLabel("Mythical Noobies (All)")
+Button = Main:CreateButton("Skibidi Noobie", "Get Skibidi Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1617, -75, 890)) end)
+Button = Main:CreateButton("Virus Noobie", "Get Virus Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(768, -182, 1548)) end)
+
+Label = Main:CreateLabel("Exotic Noobies (All)")
+Button = Main:CreateButton("Code Breaker Noobie", "Get Code Breaker Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-594.26, 49.07, -1851.74)) end)
+Button = Main:CreateButton("Piracy Noobie", "Get Piracy Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-520.46, 288.83, -1909.51)) end)
+
+Label = City:CreateLabel("Common Noobies")
+Button = City:CreateButton("Barista Noobie", "Get Barista Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-427.99, 9.97, -206.68)) end)
+Button = City:CreateButton("Boxing Noobie", "Get Boxing Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-134, 10, -306)) end)
+Button = City:CreateButton("Chef Noobie", "Get Chef Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(205.75, 10.71, 154.49)) end)
+Button = City:CreateButton("Chips Noobie", "Get Chips Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-284, 4, 267)) end)
+Button = City:CreateButton("Clown Noobie", "Get Clown Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-37, 7, -30)) end)
+Button = City:CreateButton("Employee Noobie", "Get Employee Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-328, 111, -288)) end)
+Button = City:CreateButton("Muscle Noobie", "Get Muscle Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-112.25, 24.30, -290.08)) end)
+Button = City:CreateButton("Musician Noobie", "Get Musician Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(147.06, 15.72, -407.19)) end)
+Button = City:CreateButton("Nurse Noobie", "Get Nurse Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1004.32, 26.02, 215.12)) end)
+Button = City:CreateButton("Patient Noobie", "Get Patient Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1037, 25, 173)) end)
+Button = City:CreateButton("Poor Noobie", "Get Poor Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(206.89, 5.05, 193.29)) end)
+Button = City:CreateButton("Statue Of Noobie", "Get Statue Of Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-446.89, 19.23, 152.09)) end)
+Button = City:CreateButton("Surgeon Noobie", "Get Surgeon Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-927.41, 25.80, 300.10)) end)
+Button = City:CreateButton("Trash Can Noobie", "Get Trash Can Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(24.94, 7.69, -76.56)) end)
+
+Label = City:CreateLabel("Uncommon Noobies")
+Button = City:CreateButton("Basketball Noobie", "Get Basketball Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-294.06, 20.15, -285.97)) end)
+Button = City:CreateButton("Delivery Noobie", "Get Delivery Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1135.17, 10.90, -624.58)) end)
+Button = City:CreateButton("Ink Noobie", "Get Ink Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1307.50, 27.99, -75.93)) end)
+Button = City:CreateButton("Spider Noobie", "Get Spider Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-317.02, 181.33, -248.98)) end)
+
+Label = City:CreateLabel("Rare Noobies")
+Button = City:CreateButton("Business Man Noobie", "Get Business Man Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1071.94, 11.25, -639.38)) end)
+
+Label = City:CreateLabel("Epic Noobies")
+Button = City:CreateButton("Bee Noobie", "Get Bee Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1221, 11, -624)) end)
+Button = City:CreateButton("Ghost Noobie", "Get Ghost Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(9, -2, 280)) end)
+Button = City:CreateButton("Tree Noobie", "Get Tree Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(76, -16, -63)) end)
+
+Label = City:CreateLabel("Mythical Noobies")
+Button = City:CreateButton("Baldi Noobie", "Get Baldi Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1514, 12, -450)) end)
+
+Label = City:CreateLabel("Exotic Noobies")
+Button = City:CreateButton("Demon Noobie", "Get Demon Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1715, 40, -158)) end)
+Button = City:CreateButton("Tiki Fragment #1", "Get Tiki Fragment #1", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-989, 85, 700)) end)
+Button = City:CreateButton("Tiki Fragment #2 (1)", "Get Tiki Fragment #2 (1)", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-989, 85, 700)) end)
+Button = City:CreateButton("Tiki Fragment #2 (2)", "Get Tiki Fragment #2 (2)", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1187, 85, 700)) end)
+Button = City:CreateButton("Tiki Fragment #2 (3)", "Get Tiki Fragment #2 (3)", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1854, 82, 980)) end)
+Button = City:CreateButton("Tiki Fragment #3", "Get Tiki Fragment #3", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1187, 85, 700)) end)
+Button = City:CreateButton("Tiki Fragment #4", "Get Tiki Fragment #4", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1854, 82, 980)) end)
+
+Label = Space:CreateLabel("Common Noobies")
+Button = Space:CreateButton("Cracker Noobie", "Get Cracker Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(26, 19, 96)) end)
+Button = Space:CreateButton("Glass Head Noobie", "Get Glass Head Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3001, 1777, 4986)) end)
+Button = Space:CreateButton("Scientist Noobie", "Get Scientist Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(13, 24, 133)) end)
+Button = Space:CreateButton("Telescope Noobie", "Get Telescope Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(80, 24, 14)) end)
+
+Label = Space:CreateLabel("Uncommon Noobies")
+Button = Space:CreateButton("Astronaut Noobie", "Get Astronaut Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-41, 23, 40)) end)
+Button = Space:CreateButton("Crimon Onyx Noobie", "Get Crimson Onyx Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-9073, 3155, 2453)) end)
+Button = Space:CreateButton("Piccale Noobie", "Get Piccale Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-6261, 4747, 3800)) end)
+
+Label = Space:CreateLabel("Epic Noobies")
+Button = Space:CreateButton("Asteroid Noobie", "Get Asteroid Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(2915, 1696, 5041)) end)
+Button = Space:CreateButton("Kraken Noobie", "Get Kraken Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(2843, 1735, 5136)) end)
+Button = Space:CreateButton("Shine Noobie", "Get Shine Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-7223, 6987, -1760)) end)
+
+Label = Space:CreateLabel("Legendary Noobies")
+Button = Space:CreateButton("Astra Noobie", "Get Astra Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3130, 1316, 7229)) end)
+Button = Space:CreateButton("Time Traveler Noobie", "Get Time Traveler Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2224, 1377, 7049)) end)
+
+Label = Space:CreateLabel("Mythical Noobies")
+Button = Space:CreateButton("Comet Noobie", "Get Comet Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1014, 954, 7489)) end)
+
+Label = Aquatic:CreateLabel("Uncommon Noobies")
+Button = Aquatic:CreateButton("Clown Fish Noobie", "Get Clown Fish Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-225, 30, -152)) end)
+Button = Aquatic:CreateButton("Crab Noobie", "Get Crab Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(169, 41, 173)) end)
+Button = Aquatic:CreateButton("Mango Noobie", "Get Mango Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-160, 86, 401)) end)
+Button = Aquatic:CreateButton("Marlin Noobie", "Get Marlin Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-4, 0, 11640)) end)
+Button = Aquatic:CreateButton("Seagull Noobie", "Get Seagull Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-122, 181, 535)) end)
+Button = Aquatic:CreateButton("Stingray Noobie", "Get Stingray Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(134, 11, -85)) end)
+
+Label = Aquatic:CreateLabel("Rare Noobies")
+Button = Aquatic:CreateButton("Coral Noobie", "Get Coral Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3985, 91, 3926)) end)
+Button = Aquatic:CreateButton("Plankton Noobie", "Get Plankton Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-47, 29, -120)) end)
+Button = Aquatic:CreateButton("Seahorse Noobie", "Get Seahorse Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3352, 163, 3016)) end)
+Button = Aquatic:CreateButton("Seaweed Noobie", "Get Seaweed Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(202, 11, -211)) end)
+
+Label = Aquatic:CreateLabel("Epic Noobies")
+Button = Aquatic:CreateButton("Angler Fish Noobie", "Get Angler Fish Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2906, 61, -153)) end)
+
+Label = Aquatic:CreateLabel("Legendary Noobies")
+Button = Aquatic:CreateButton("Sand Castle Noobie", "Get Sand Castle Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3857, 200, 2897)) end)
+Button = Aquatic:CreateButton("Squid Noobie", "Get Squid Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-210, 18, 13)) end)
+
+
+Label = Maps:CreateLabel("City")
+Label = Maps:CreateLabel("Click ''Go To City Button'' Then Wait Until A Truck Coming And Get Into The Truck")
+Button = Maps:CreateButton("Bus Stop", "Go To Bus Stop", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-243.99, 6.67, -611.79)) end)
+
+Label = Maps:CreateLabel("Space")
+Button = Maps:CreateButton("Metal Panel", "Get Metal Panel Item", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-134.89, 6.520, -51.08)) end)
+Button = Maps:CreateButton("iron Wrench", "Get Iron Wrench Item", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-310.36, 4.57, 158.550)) end)
+Button = Maps:CreateButton("Rocket Gear", "Get Rocket Gear Item", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-170.20, 7.26, 117.490)) end)
+Button = Maps:CreateButton("Turbo Engine", "Get Turbo Engine Item", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(148.65, 8.2800, 171.79)) end)
+Label = Maps:CreateLabel("Get All These Items Then Place The Items To The Rocket And Launch The Rocket")
+Button = Maps:CreateButton("Rocket Launch", "Go To Rocket Launch Place", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(40.001, 6.010, 600.001)) end)
+Button = Maps:CreateButton("Launch Button", "Go To Launch Button Place", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-68.73, 33.50, -732.32)) end)
+
+Label = Maps:CreateLabel("Aquatic")
+Button = Maps:CreateButton("Dialog", "Go To Dialog", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(12.83, 18.91, 129.50)) end)
+Label = Maps:CreateLabel("Complete The Dialog")
+
+Button = Title:CreateButton("Obby Master Title", "Get Obby Master Title", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-22.37, 181.75, 2272.73)) end)
+
+
+
+--[<esc>[
+Maps:
+City:
+-243.99, 6.67, -611.79 << Bus Stop
+Space:
+    -134.89, 6.520, -51.08 << Metal Panel
+    -310.36, 4.57, 158.550 << Iron Wrench
+    -170.20, 7.26, 117.490 << Rocket Gear
+    148.65, 8.2800, 171.79 << Turbo Engine
+    40.001, 6.010, 600.001 << Rocket Launch
+    -68.73, 33.50, -732.32 << Launch Button
+Aquatic:
+    12.83, 18.91, 129.50 << Dialog
+
+MM Common:
+normal -324.55, 13.90, -783.49
+ads -266.43, 52.18, -537.20
+adventurer -394.83, 9.73, -569.08
+bucket -277.89, 12.33, -800.00
+Cashier 159.81, 10.20, -654.72
+chillin -368.30, 9.45, -554.58
+clothing staff -150.60, 14.00, -759.64
+cool -418.93, 13.57, -659.51
+female -165.39, 25.25, -658.46
+gangster -409.25, 9.37, -741.02
+grandma -262.95, 13.68, -683.80
+grandpa -371.83, 12.88, -766.90
+injured -398.09, 12.69, -683.63
+Lily pad -111.47, 7.64, -955.5
+mama -157.78, 14.31, -786.73
+papa -250.49, 12.00, -770.20
+smartphone -250.40, 9.00, -938.89
+spray -455, 22, -896
+thief:
+    -258, 13, -659 << behind grandma
+    -295, 13, -640 << axe
+    -300, 10, -526 << grandma house
+    -179, 10, -694 << fud & co
+    -160, 10, -649 << burgir
+
+MM Uncommon:
+abandoned -312, -29, -522
+bush -572, 6, -615
+cinema -429, 48, -1605
+cleaning -192, 10, -687 quest
+crystal -215, 18, -1609
+farmer -497, 9, -645 quest:
+    local args = {
+        [1] = "Farmer Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("NoobiesGot"):FireServer(unpack(args))
+get quest:
+    local args = {
+        [1] = "Daily Quest",
+        [2] = "Farmer_Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("ClientThing"):FireServer(unpack(args)) 
+fire -361, -11, -526
+fisherman -41, 12, -923
+food inspector -142, 9, -635
+kitten -259, 52, -683
+lady bug 
+lumberjack -339, 11, -538 quest:
+    local args = {
+        [1] = "Lumberjack Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("NoobiesGot"):FireServer(unpack(args))
+get quest:
+    local args = {
+        [1] = "Daily Quest",
+        [2] = "Lumberjack_Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("ClientThing"):FireServer(unpack(args))
+buy axe:
+    local args = {
+        [1] = true,
+        [2] = game:GetService("ReplicatedStorage"):WaitForChild("Dagang"):WaitForChild("Axe")
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("DagangRE"):FireServer(unpack(args))
+miner 
+painting -189.82, 13.08, -645.58
+sakura -390, 40, -353
+samurai -355, 40, -313
+shopping -327.76, 12.8, -667 quest:
+    local args = {
+        [1] = "Shopping Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("NoobiesGot"):FireServer(unpack(args))
+get quest:
+    local args = {
+        [1] = "Quest",
+        [2] = "Shopping_Noobie",
+        [3] = "Daily"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("ClientThing"):FireServer(unpack(args))
+skeleton -227, 10, -1488
+stone -63, 12, -1453
+toy -172.69, 21.59, -582.73
+tv -350, 35, -1610
+zombie -330, -32, -1740
+
+MM Rare:
+dirt -255, 9, -971
+mushroom -407.10, 385.02, -818.33
+shadow -279, 12, -1479
+speaker -443, 54, -1578
+
+MM Epic:
+bubble -96, 36, -1703
+cloud -3790, -3, -1062
+crate -67, 23, -1507
+mimic -601, 9, -415
+pixel 569.51, -82.45, -2902.10
+sensei
+water 112, 15, -917
+
+MM Legendary:
+dead tree -383, 64, -921
+glass -428.50, 72.42, -1688.16
+glow -482.26, 41.58, -1648.69
+knight -2408, 103, -46
+melted
+neon -645.25, 44.62, -1489.98 --70
+
+MM Mythical:
+skibidi -1617, -75, 890
+virus 768, -182, 1548
+
+MM Exotic:
+code breaker -594.26, 49.07, -1851.74
+Piracy -520.46, 288.83, -1909.51
+
+C Common:
+Bakery
+Barista -427.99, 9.97, -206.68
+boxing -134, 10, -306
+Car
+Chef 205.75, 10.71, 154.49
+Chips -284, 4, 267
+Clown -37, 7, -30
+criminal
+employee -328, 111, -288
+muscle -112.25, 24.30, -290.08
+musician 147.06, 15.72, -407.19
+nurse -1004.32, 26.02, 215.12 --80
+patient -1037, 25, 173
+poor 206.89, 5.05, 193.29
+statue of -446.89, 19.23, 152.09
+Surgeon -927.41, 25.80, 300.10
+trash can 24.94, 7.69, -76.56
+
+C Uncommon:
+artist
+basketball -294.06, 20.15, -285.97
+basketball player
+celebrity
+delivery -1135.17, 10.90, -624.58
+ink -1307.50, 27.99, -75.93
+machinist
+Mannequin
+spider -317.02, 181.33, -248.98
+traffic cone
+
+C rare:
+beekeeper
+business man -1071.94, 11.25, -639.38
+doctor
+electrical
+police
+worker construction
+
+C epic:
+bee -1221, 11, -624
+ghost 9, -2, 280
+tree 76, -16, -63
+
+C Legendary:
+DJ
+
+C mythical:
+baldi -1514, 12, -450 --90
+bracken -987, 85, 701
+
+C exotic:
+demon -1715, 40, -158
+tiki:
+    -989, 85, 700 Frag #1 
+    Frag #2:
+        -989, 85, 700 #1
+        -1187, 85, 700 #2
+        -1854, 82, 980 #3
+    -1187, 85, 700 Frag #3
+    -1854, 82, 980 Frag #4
+
+S Common:
+cracker 26, 19, 96
+glass head 3001, 1777, 4986
+scientist 13, 24, 133
+telescope 80, 24, 14
+
+S Uncommon:
+alien
+astronaut -41, 23, 40
+Crimson onyx -9073, 3155, 2453
+piccale -6261, 4747, 3800
+
+S rare:
+alien soldier
+sus
+winning
+
+S epic:
+asteroid 2915, 1696, 5041
+company
+Kraken 2843, 1735, 5136
+shine -7223, 6987, -1760 --100
+
+s Legendary:
+Astra -3160, 1316, 7229
+time traveler -2224, 1377, 7049
+
+s mythical:
+comet 1014, 954, 7489 --103
+malignant
+
+s exotic:
+black hole
+
+A common:
+beach kid
+jellyfish head
+Lifebuoy
+lobster
+napoleon
+sea urchin
+tourist
+towel
+
+A Uncommon:
+beach patrol
+clown fish -225, 30, -152
+crab 169, 41, 173
+dolphin
+mango -160, 86, 401
+marlin -4, 0, 11640
+palm
+pufferfish
+scuba
+sea turtle
+seagull -122, 181, 535
+stingray 134, 11, -85
+surfer
+
+A rare:
+barrel
+coral 3985, 91, 3926
+fishman
+plankton -47, 29, -120
+seahorse 3352, 163, 3016
+seaweed 202, 11, -211
+snail
+
+A epic:
+angler fish -2906, 61, -153
+axolotl
+mermaid
+starfish
+
+A Legendary:
+magma
+orca
+sand castle 3857, 200, 2897
+squid -210, 18, 13
+treasure
+
+A mythical:
+megalodon
+oarfish
+
+A exotic:
+poseidon
+
+title:
+obby master -22.37, 181.75, 2272.73
+
+
+local teleportPositions = {
+    Vector3.new(-324.55, 13.90, -783.49),  
+    Vector3.new(-266.43, 52.18, -537.20),
+    Vector3.new(-394.83, 9.73, -569.08),
+    Vector3.new(-277.89, 12.33, -800.00),
+    Vector3.new(159.81, 10.20, -654.72),
+    Vector3.new(-368.30, 9.45, -554.58),
+    Vector3.new(-150.60, 14.00, -759.64),
+    Vector3.new(-418.93, 13.57, -659.51),
+    Vector3.new(-165.39, 25.25, -658.46),
+    Vector3.new(-409.25, 9.37, -741.02),
+    Vector3.new(-262.95, 13.68, -683.80),
+    Vector3.new(-371.83, 12.88, -766.90),
+    Vector3.new(-398.09, 12.69, -683.63),
+    Vector3.new(-111.47, 7.64, -955.5),
+    Vector3.new(-157.78, 14.31, -786.73),
+    Vector3.new(-250.49, 12.00, -770.20),
+    Vector3.new(-455, 22, -896),
+    Vector3.new(-258, 13, -659),
+    Vector3.new(-295, 13, -640),
+    Vector3.new(-300, 10, -526),
+    Vector3.new(-179, 10, -694),
+    Vector3.new(-160, 10, -649),
+    Vector3.new(-312, -29, -522),
+    Vector3.new(-572, 6, -615),
+    Vector3.new(-429, 48, -1605),
+    Vector3.new(-215, 18, -1609), --crystal
+}
+local currentIndex = 1
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+local function teleportToNextPosition()
+    if currentIndex <= #teleportPositions then
+        local targetPosition = teleportPositions[currentIndex]
+        humanoidRootPart.CFrame = CFrame.new(targetPosition)
+        currentIndex = currentIndex + 1
+    else
+    end
+end
+while currentIndex <= #teleportPositions do
+    teleportToNextPosition()
+    wait(1) 
+end
+]<esc>]-- ]]
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/UI-Libraries/refs/heads/main/Valiant/source.lua"))()
+local Window = Library:CreateWindow("Universe Hub V1.5", "By Fizss, Rafif, Revanz, Ifal", 10044538000)
+local Noobies = Window:CreateTab("Find The Noobies")
+
+local Main = Noobies:CreateFrame("Main")
+local City = Noobies:CreateFrame("City")
+local Space = Noobies:CreateFrame("Space")
+local Aquatic = Noobies:CreateFrame("Aquatic")
+local Exclusive = Noobies:CreateFrame("Exclusive")
+local Maps = Noobies:CreateFrame("Maps")
+local Title = Noobies:CreateFrame("Title")
+
+Label = Main:CreateLabel("Common Noobies (All)")
+Button = Main:CreateButton("Normal Noobie", "Get Normal Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-324.55, 13.90, -783.49)) end)
+Button = Main:CreateButton("Ads Noobie", "Get Ads Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-266.43, 52.18, -537.20)) end)
+Button = Main:CreateButton("Adventurer Noobie", "Get Adventurer Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-395, 10, -569)) end)
+Button = Main:CreateButton("Bucket Noobie", "Get Bucket Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-278, 12, -800)) end)
+Button = Main:CreateButton("Cashier Noobie", "Get Cashier Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-160, 10, -654)) end)
+Button = Main:CreateButton("Chillin Noobie", "Get Chillin Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-368, 9, -555)) end)
+Button = Main:CreateButton("Clothing Staff Noobie", "Get Clothing Staff Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-151, 13, -760)) end)
+Button = Main:CreateButton("Cool Noobie", "Get Cool Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-418, 10, -660)) end)
+Button = Main:CreateButton("Female Noobie", "Get Female Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-166, 25, -658)) end)
+Button = Main:CreateButton("Gangster Noobie", "Get Gangster Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-410, 9, -741)) end)
+Button = Main:CreateButton("Grandma Noobie", "Get Grandma Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-263, 13, -683)) end)
+Button = Main:CreateButton("Grandpa Noobie", "Get Grandpa Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-372, 13, -767)) end)
+Button = Main:CreateButton("Injured Noobie", "Get Injured Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-398, 13, -682)) end)
+Button = Main:CreateButton("Lily Pad Noobie", "Get Lily Pad Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-112, 8, -956)) end)
+Button = Main:CreateButton("Mama Noobie", "Get Mama Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-158, 14, -787)) end)
+Button = Main:CreateButton("Papa Noobie", "Get Papa Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-251, 12, -770)) end)
+Button = Main:CreateButton("Smartphone Noobie", "Get Smartphone Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-250, 9, -939)) end)
+Button = Main:CreateButton("Spray Noobie", "Get Spray Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-455, 22, -896)) end)
+Button = Main:CreateButton("Thief Noobie", "Get Thief Noobie", function() loadstring(game:HttpGet("https://pastebin.com/raw/S56GARCP"))() end)
+
+Label = Main:CreateLabel("Uncommon Noobies")
+Button = Main:CreateButton("Abandoned Noobie", "Get Abandoned Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-312, -29, -521)) end)
+Button = Main:CreateButton("Bush Noobie", "Get Bush Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-574, 6, -615)) end)
+Button = Main:CreateButton("Cinema Noobie", "Get Cinema Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-429, 49, -1605)) end)
+Button = Main:CreateButton("Cleaning Noobie", "Complete The Quest To Get The Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-192, 10, -687)) end)
+Button = Main:CreateButton("Crystal Noobie", "Get Crystal Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-214, 12, -1606)) end)
+Button = Main:CreateButton("Farmer Noobie", "Get Farmer Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-497, 9, -645)) end)
+Button = Main:CreateButton("Farmer Noobie (Alt)", "Get Farmer Noobie (Alternative)", function() loadstring(game:HttpGet("https://pastebin.com/raw/LrENfnxW"))() end)
+Button = Main:CreateButton("Farmer Noobie (Quest)", "Get Farmer Noobie Quest (Beta)", function() loadstring(game:HttpGet("https://pastebin.com/raw/kCYDJ1US"))() end)
+Button = Main:CreateButton("Fire Noobie", "Get Fire Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-361, -11, -526)) end)
+Button = Main:CreateButton("Fisherman Noobie", "Get Fisherman Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-41, 12, -923)) end)
+Button = Main:CreateButton("Food Inspector Noobie", "Get Food Inspector Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-142, 9, -635)) end)
+Button = Main:CreateButton("Kitten Noobie", "Get Kitten Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-259, 52, -683)) end)
+Button = Main:CreateButton("Lady Bug Noobie", "Wait Until You Get Lady Bug Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-337.6, 4.5, -563.84)) end)
+Button = Main:CreateButton("Lumberjack Noobie", "Get Lumberjack Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-339, 11, -538)) end)
+Button = Main:CreateButton("Lumberjack Noobie (Alt)", "Get Lumberjack Noobie (Alternative)", function() loadstring(game:HttpGet("https://pastebin.com/raw/GC6upEtn"))() end)
+Button = Main:CreateButton("Lumberjack Noobie (Quest)", "Get Lumberjack Noobie Quest (Beta)", function() loadstring(game:HttpGet("https://pastebin.com/raw/Li56Rghw"))() end)
+Button = Main:CreateButton("Lumberjack Noobie (Axe)", "Get Lumberjack Noobie Axe", function() loadstring(game:HttpGet("https://pastebin.com/raw/Zzjz9VCw"))() end)
+Button = Main:CreateButton("Painting Noobie", "Get Painting Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-189.82, 13.08, -645.58)) end)
+Button = Main:CreateButton("Sakura Noobie", "Get Sakura Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-390, 40, -353)) end)
+Button = Main:CreateButton("Samurai Noobie", "Get Samurai Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-355, 40, -313)) end)
+Button = Main:CreateButton("Shopping Noobie", "Get Shopping Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-327.76, 12.8, -667))
+Button = Main:CreateButton("Shopping Noobie (Alt)", "Get Shopping Noobie (Alternative)", function() loadstring(game:HttpGet("https://pastebin.com/raw/Fb5NrmST"))()
+Button = Main:CreateButton("Shopping Noobie (Quest)", "Get Shopping Noobie Quest (Beta)", function() loadstring(game:HttpGet("https://pastebin.com/raw/HrbEuTLN"))() end)
+Button = Main:CreateButton("Skeleton Noobie", "Get Skeleton Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-227, 10, -1488)) end)
+Button = Main:CreateButton("Stone Noobie", "Get Stone Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-62, 12, -1453)) end)
+Button = Main:CreateButton("Toy Noobie", "Get Toy Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-172.69, 21.59, -582.73)) end)
+Button = Main:CreateButton("TV Noobie", "Get TV Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-350, 35, -1611)) end)
+Button = Main:CreateButton("Zombie Noobie", "Get Zombie Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-331, -32, -1740)) end)
+
+Label = Main:CreateLabel("Rare Noobies (All)")
+Button = Main:CreateButton("Dirt Noobie", "Get Dirt Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-255, 9, -971)) end)
+Button = Main:CreateButton("Mushroom Noobie", "Get Mushroom Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-406, 385, -818)) end)
+Button = Main:CreateButton("Shadow Noobie", "Get Shadow Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-280, 12, -1479)) end)
+Button = Main:CreateButton("Speaker Noobie", "Get Speaker Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-443, 53, -1578)) end)
+
+Label = Main:CreateLabel("Epic Noobies")
+Button = Main:CreateButton("Bubble Noobie", "Get Bubble Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-96, 36, -1703)) end)
+Button = Main:CreateButton("Cloud Noobie", "Get Cloud Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3790, -3, -1062)) end)
+Button = Main:CreateButton("Crate Noobie", "Get Crate Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-67, 23, -1507)) end)
+Button = Main:CreateButton("Mimic Noobie", "Get Mimic Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-601, 9, -415)) end)
+Button = Main:CreateButton("Pixel Noobie", "Get Pixel Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(569, -82, -2902)) end)
+Button = Main:CreateButton("Water Noobie", "Get Water Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(111, 15, -917)) end)
+
+Label = Main:CreateLabel("Legendary Noobies")
+Button = Main:CreateButton("Dead Tree Noobie", "Get Dead Tree Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-383, 64, -921)) end)
+Button = Main:CreateButton("Glass Noobie", "Get Glass Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-428.50, 72.42, -1688.16)) end)
+Button = Main:CreateButton("Glow Noobie", "Get Glow Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-482.26, 41.58, -1648.69)) end)
+Button = Main:CreateButton("Knight Noobie", "Get Knight Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2408, 103, -46)) end)
+Button = Main:CreateButton("Neon Noobie", "Get Neon Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-645.25, 44.62, -1489.98)) end)
+
+Label = Main:CreateLabel("Mythical Noobies (All)")
+Button = Main:CreateButton("Skibidi Noobie", "Get Skibidi Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1617, -75, 890)) end)
+Button = Main:CreateButton("Virus Noobie", "Get Virus Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(768, -182, 1548)) end)
+
+Label = Main:CreateLabel("Exotic Noobies (All)")
+Button = Main:CreateButton("Code Breaker Noobie", "Get Code Breaker Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-594.26, 49.07, -1851.74)) end)
+Button = Main:CreateButton("Piracy Noobie", "Get Piracy Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-520.46, 288.83, -1909.51)) end)
+
+Label = City:CreateLabel("Common Noobies")
+Button = City:CreateButton("Barista Noobie", "Get Barista Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-427.99, 9.97, -206.68)) end)
+Button = City:CreateButton("Boxing Noobie", "Get Boxing Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-134, 10, -306)) end)
+Button = City:CreateButton("Chef Noobie", "Get Chef Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(205.75, 10.71, 154.49)) end)
+Button = City:CreateButton("Chips Noobie", "Get Chips Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-284, 4, 267)) end)
+Button = City:CreateButton("Clown Noobie", "Get Clown Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-37, 7, -30)) end)
+Button = City:CreateButton("Employee Noobie", "Get Employee Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-328, 111, -288)) end)
+Button = City:CreateButton("Muscle Noobie", "Get Muscle Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-112.25, 24.30, -290.08)) end)
+Button = City:CreateButton("Musician Noobie", "Get Musician Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(147.06, 15.72, -407.19)) end)
+Button = City:CreateButton("Nurse Noobie", "Get Nurse Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1004.32, 26.02, 215.12)) end)
+Button = City:CreateButton("Patient Noobie", "Get Patient Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1037, 25, 173)) end)
+Button = City:CreateButton("Poor Noobie", "Get Poor Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(206.89, 5.05, 193.29)) end)
+Button = City:CreateButton("Statue Of Noobie", "Get Statue Of Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-446.89, 19.23, 152.09)) end)
+Button = City:CreateButton("Surgeon Noobie", "Get Surgeon Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-927.41, 25.80, 300.10)) end)
+Button = City:CreateButton("Trash Can Noobie", "Get Trash Can Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(24.94, 7.69, -76.56)) end)
+
+Label = City:CreateLabel("Uncommon Noobies")
+Button = City:CreateButton("Basketball Noobie", "Get Basketball Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-294.06, 20.15, -285.97)) end)
+Button = City:CreateButton("Delivery Noobie", "Get Delivery Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1135.17, 10.90, -624.58)) end)
+Button = City:CreateButton("Ink Noobie", "Get Ink Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1307.50, 27.99, -75.93)) end)
+Button = City:CreateButton("Spider Noobie", "Get Spider Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-317.02, 181.33, -248.98)) end)
+
+Label = City:CreateLabel("Rare Noobies")
+Button = City:CreateButton("Business Man Noobie", "Get Business Man Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1071.94, 11.25, -639.38)) end)
+
+Label = City:CreateLabel("Epic Noobies")
+Button = City:CreateButton("Bee Noobie", "Get Bee Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1221, 11, -624)) end)
+Button = City:CreateButton("Ghost Noobie", "Get Ghost Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(9, -2, 280)) end)
+Button = City:CreateButton("Tree Noobie", "Get Tree Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(76, -16, -63)) end)
+
+Label = City:CreateLabel("Mythical Noobies")
+Button = City:CreateButton("Baldi Noobie", "Get Baldi Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1514, 12, -450)) end)
+
+Label = City:CreateLabel("Exotic Noobies")
+Button = City:CreateButton("Demon Noobie", "Get Demon Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1715, 40, -158)) end)
+Button = City:CreateButton("Tiki Fragment #1", "Get Tiki Fragment #1", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-989, 85, 700)) end)
+Button = City:CreateButton("Tiki Fragment #2 (1)", "Get Tiki Fragment #2 (1)", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-989, 85, 700)) end)
+Button = City:CreateButton("Tiki Fragment #2 (2)", "Get Tiki Fragment #2 (2)", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1187, 85, 700)) end)
+Button = City:CreateButton("Tiki Fragment #2 (3)", "Get Tiki Fragment #2 (3)", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1854, 82, 980)) end)
+Button = City:CreateButton("Tiki Fragment #3", "Get Tiki Fragment #3", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1187, 85, 700)) end)
+Button = City:CreateButton("Tiki Fragment #4", "Get Tiki Fragment #4", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1854, 82, 980)) end)
+
+Label = Space:CreateLabel("Common Noobies")
+Button = Space:CreateButton("Cracker Noobie", "Get Cracker Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(26, 19, 96)) end)
+Button = Space:CreateButton("Glass Head Noobie", "Get Glass Head Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3001, 1777, 4986)) end)
+Button = Space:CreateButton("Scientist Noobie", "Get Scientist Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(13, 24, 133)) end)
+Button = Space:CreateButton("Telescope Noobie", "Get Telescope Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(80, 24, 14)) end)
+
+Label = Space:CreateLabel("Uncommon Noobies")
+Button = Space:CreateButton("Astronaut Noobie", "Get Astronaut Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-41, 23, 40)) end)
+Button = Space:CreateButton("Crimon Onyx Noobie", "Get Crimson Onyx Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-9073, 3155, 2453)) end)
+Button = Space:CreateButton("Piccale Noobie", "Get Piccale Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-6261, 4747, 3800)) end)
+
+Label = Space:CreateLabel("Epic Noobies")
+Button = Space:CreateButton("Asteroid Noobie", "Get Asteroid Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(2915, 1696, 5041)) end)
+Button = Space:CreateButton("Kraken Noobie", "Get Kraken Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(2843, 1735, 5136)) end)
+Button = Space:CreateButton("Shine Noobie", "Get Shine Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-7223, 6987, -1760)) end)
+
+Label = Space:CreateLabel("Legendary Noobies")
+Button = Space:CreateButton("Astra Noobie", "Get Astra Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3130, 1316, 7229)) end)
+Button = Space:CreateButton("Time Traveler Noobie", "Get Time Traveler Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2224, 1377, 7049)) end)
+
+Label = Space:CreateLabel("Mythical Noobies")
+Button = Space:CreateButton("Comet Noobie", "Get Comet Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1014, 954, 7489)) end)
+
+Label = Aquatic:CreateLabel("Uncommon Noobies")
+Button = Aquatic:CreateButton("Clown Fish Noobie", "Get Clown Fish Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-225, 30, -152)) end)
+Button = Aquatic:CreateButton("Crab Noobie", "Get Crab Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(169, 41, 173)) end)
+Button = Aquatic:CreateButton("Mango Noobie", "Get Mango Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-160, 86, 401)) end)
+Button = Aquatic:CreateButton("Marlin Noobie", "Get Marlin Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-4, 0, 11640)) end)
+Button = Aquatic:CreateButton("Seagull Noobie", "Get Seagull Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-122, 181, 535)) end)
+Button = Aquatic:CreateButton("Stingray Noobie", "Get Stingray Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(134, 11, -85)) end)
+
+Label = Aquatic:CreateLabel("Rare Noobies")
+Button = Aquatic:CreateButton("Coral Noobie", "Get Coral Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3985, 91, 3926)) end)
+Button = Aquatic:CreateButton("Plankton Noobie", "Get Plankton Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-47, 29, -120)) end)
+Button = Aquatic:CreateButton("Seahorse Noobie", "Get Seahorse Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3352, 163, 3016)) end)
+Button = Aquatic:CreateButton("Seaweed Noobie", "Get Seaweed Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(202, 11, -211)) end)
+
+Label = Aquatic:CreateLabel("Epic Noobies")
+Button = Aquatic:CreateButton("Angler Fish Noobie", "Get Angler Fish Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2906, 61, -153)) end)
+
+Label = Aquatic:CreateLabel("Legendary Noobies")
+Button = Aquatic:CreateButton("Sand Castle Noobie", "Get Sand Castle Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3857, 200, 2897)) end)
+Button = Aquatic:CreateButton("Squid Noobie", "Get Squid Noobie", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-210, 18, 13)) end)
+
+
+Label = Maps:CreateLabel("City")
+Label = Maps:CreateLabel("Click ''Go To City Button'' Then Wait Until A Truck Coming And Get Into The Truck")
+Button = Maps:CreateButton("Bus Stop", "Go To Bus Stop", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-243.99, 6.67, -611.79)) end)
+
+Label = Maps:CreateLabel("Space")
+Button = Maps:CreateButton("Metal Panel", "Get Metal Panel Item", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-134.89, 6.520, -51.08)) end)
+Button = Maps:CreateButton("iron Wrench", "Get Iron Wrench Item", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-310.36, 4.57, 158.550)) end)
+Button = Maps:CreateButton("Rocket Gear", "Get Rocket Gear Item", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-170.20, 7.26, 117.490)) end)
+Button = Maps:CreateButton("Turbo Engine", "Get Turbo Engine Item", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(148.65, 8.2800, 171.79)) end)
+Label = Maps:CreateLabel("Get All These Items Then Place The Items To The Rocket And Launch The Rocket")
+Button = Maps:CreateButton("Rocket Launch", "Go To Rocket Launch Place", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(40.001, 6.010, 600.001)) end)
+Button = Maps:CreateButton("Launch Button", "Go To Launch Button Place", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-68.73, 33.50, -732.32)) end)
+
+Label = Maps:CreateLabel("Aquatic")
+Button = Maps:CreateButton("Dialog", "Go To Dialog", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(12.83, 18.91, 129.50)) end)
+Label = Maps:CreateLabel("Complete The Dialog")
+
+Button = Title:CreateButton("Obby Master Title", "Get Obby Master Title", function() game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-22.37, 181.75, 2272.73)) end)
+
+
+
+--[[
+Maps:
+City:
+-243.99, 6.67, -611.79 << Bus Stop
+Space:
+    -134.89, 6.520, -51.08 << Metal Panel
+    -310.36, 4.57, 158.550 << Iron Wrench
+    -170.20, 7.26, 117.490 << Rocket Gear
+    148.65, 8.2800, 171.79 << Turbo Engine
+    40.001, 6.010, 600.001 << Rocket Launch
+    -68.73, 33.50, -732.32 << Launch Button
+Aquatic:
+    12.83, 18.91, 129.50 << Dialog
+
+MM Common:
+normal -324.55, 13.90, -783.49
+ads -266.43, 52.18, -537.20
+adventurer -394.83, 9.73, -569.08
+bucket -277.89, 12.33, -800.00
+Cashier 159.81, 10.20, -654.72
+chillin -368.30, 9.45, -554.58
+clothing staff -150.60, 14.00, -759.64
+cool -418.93, 13.57, -659.51
+female -165.39, 25.25, -658.46
+gangster -409.25, 9.37, -741.02
+grandma -262.95, 13.68, -683.80
+grandpa -371.83, 12.88, -766.90
+injured -398.09, 12.69, -683.63
+Lily pad -111.47, 7.64, -955.5
+mama -157.78, 14.31, -786.73
+papa -250.49, 12.00, -770.20
+smartphone -250.40, 9.00, -938.89
+spray -455, 22, -896
+thief:
+    -258, 13, -659 << behind grandma
+    -295, 13, -640 << axe
+    -300, 10, -526 << grandma house
+    -179, 10, -694 << fud & co
+    -160, 10, -649 << burgir
+
+MM Uncommon:
+abandoned -312, -29, -522
+bush -572, 6, -615
+cinema -429, 48, -1605
+cleaning -192, 10, -687 quest
+crystal -215, 18, -1609
+farmer -497, 9, -645 quest:
+    local args = {
+        [1] = "Farmer Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("NoobiesGot"):FireServer(unpack(args))
+get quest:
+    local args = {
+        [1] = "Daily Quest",
+        [2] = "Farmer_Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("ClientThing"):FireServer(unpack(args)) 
+fire -361, -11, -526
+fisherman -41, 12, -923
+food inspector -142, 9, -635
+kitten -259, 52, -683
+lady bug 
+lumberjack -339, 11, -538 quest:
+    local args = {
+        [1] = "Lumberjack Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("NoobiesGot"):FireServer(unpack(args))
+get quest:
+    local args = {
+        [1] = "Daily Quest",
+        [2] = "Lumberjack_Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("ClientThing"):FireServer(unpack(args))
+buy axe:
+    local args = {
+        [1] = true,
+        [2] = game:GetService("ReplicatedStorage"):WaitForChild("Dagang"):WaitForChild("Axe")
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("DagangRE"):FireServer(unpack(args))
+miner 
+painting -189.82, 13.08, -645.58
+sakura -390, 40, -353
+samurai -355, 40, -313
+shopping -327.76, 12.8, -667 quest:
+    local args = {
+        [1] = "Shopping Noobie"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("NoobiesGot"):FireServer(unpack(args))
+get quest:
+    local args = {
+        [1] = "Quest",
+        [2] = "Shopping_Noobie",
+        [3] = "Daily"
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("ClientThing"):FireServer(unpack(args))
+skeleton -227, 10, -1488
+stone -63, 12, -1453
+toy -172.69, 21.59, -582.73
+tv -350, 35, -1610
+zombie -330, -32, -1740
+
+MM Rare:
+dirt -255, 9, -971
+mushroom -407.10, 385.02, -818.33
+shadow -279, 12, -1479
+speaker -443, 54, -1578
+
+MM Epic:
+bubble -96, 36, -1703
+cloud -3790, -3, -1062
+crate -67, 23, -1507
+mimic -601, 9, -415
+pixel 569.51, -82.45, -2902.10
+sensei
+water 112, 15, -917
+
+MM Legendary:
+dead tree -383, 64, -921
+glass -428.50, 72.42, -1688.16
+glow -482.26, 41.58, -1648.69
+knight -2408, 103, -46
+melted
+neon -645.25, 44.62, -1489.98 --70
+
+MM Mythical:
+skibidi -1617, -75, 890
+virus 768, -182, 1548
+
+MM Exotic:
+code breaker -594.26, 49.07, -1851.74
+Piracy -520.46, 288.83, -1909.51
+
+C Common:
+Bakery
+Barista -427.99, 9.97, -206.68
+boxing -134, 10, -306
+Car
+Chef 205.75, 10.71, 154.49
+Chips -284, 4, 267
+Clown -37, 7, -30
+criminal
+employee -328, 111, -288
+muscle -112.25, 24.30, -290.08
+musician 147.06, 15.72, -407.19
+nurse -1004.32, 26.02, 215.12 --80
+patient -1037, 25, 173
+poor 206.89, 5.05, 193.29
+statue of -446.89, 19.23, 152.09
+Surgeon -927.41, 25.80, 300.10
+trash can 24.94, 7.69, -76.56
+
+C Uncommon:
+artist
+basketball -294.06, 20.15, -285.97
+basketball player
+celebrity
+delivery -1135.17, 10.90, -624.58
+ink -1307.50, 27.99, -75.93
+machinist
+Mannequin
+spider -317.02, 181.33, -248.98
+traffic cone
+
+C rare:
+beekeeper
+business man -1071.94, 11.25, -639.38
+doctor
+electrical
+police
+worker construction
+
+C epic:
+bee -1221, 11, -624
+ghost 9, -2, 280
+tree 76, -16, -63
+
+C Legendary:
+DJ
+
+C mythical:
+baldi -1514, 12, -450 --90
+bracken -987, 85, 701
+
+C exotic:
+demon -1715, 40, -158
+tiki:
+    -989, 85, 700 Frag #1 
+    Frag #2:
+        -989, 85, 700 #1
+        -1187, 85, 700 #2
+        -1854, 82, 980 #3
+    -1187, 85, 700 Frag #3
+    -1854, 82, 980 Frag #4
+
+S Common:
+cracker 26, 19, 96
+glass head 3001, 1777, 4986
+scientist 13, 24, 133
+telescope 80, 24, 14
+
+S Uncommon:
+alien
+astronaut -41, 23, 40
+Crimson onyx -9073, 3155, 2453
+piccale -6261, 4747, 3800
+
+S rare:
+alien soldier
+sus
+winning
+
+S epic:
+asteroid 2915, 1696, 5041
+company
+Kraken 2843, 1735, 5136
+shine -7223, 6987, -1760 --100
+
+s Legendary:
+Astra -3160, 1316, 7229
+time traveler -2224, 1377, 7049
+
+s mythical:
+comet 1014, 954, 7489 --103
+malignant
+
+s exotic:
+black hole
+
+A common:
+beach kid
+jellyfish head
+Lifebuoy
+lobster
+napoleon
+sea urchin
+tourist
+towel
+
+A Uncommon:
+beach patrol
+clown fish -225, 30, -152
+crab 169, 41, 173
+dolphin
+mango -160, 86, 401
+marlin -4, 0, 11640
+palm
+pufferfish
+scuba
+sea turtle
+seagull -122, 181, 535
+stingray 134, 11, -85
+surfer
+
+A rare:
+barrel
+coral 3985, 91, 3926
+fishman
+plankton -47, 29, -120
+seahorse 3352, 163, 3016
+seaweed 202, 11, -211
+snail
+
+A epic:
+angler fish -2906, 61, -153
+axolotl
+mermaid
+starfish
+
+A Legendary:
+magma
+orca
+sand castle 3857, 200, 2897
+squid -210, 18, 13
+treasure
+
+A mythical:
+megalodon
+oarfish
+
+A exotic:
+poseidon
+
+title:
+obby master -22.37, 181.75, 2272.73
+
+
+local teleportPositions = {
+    Vector3.new(-324.55, 13.90, -783.49),  
+    Vector3.new(-266.43, 52.18, -537.20),
+    Vector3.new(-394.83, 9.73, -569.08),
+    Vector3.new(-277.89, 12.33, -800.00),
+    Vector3.new(159.81, 10.20, -654.72),
+    Vector3.new(-368.30, 9.45, -554.58),
+    Vector3.new(-150.60, 14.00, -759.64),
+    Vector3.new(-418.93, 13.57, -659.51),
+    Vector3.new(-165.39, 25.25, -658.46),
+    Vector3.new(-409.25, 9.37, -741.02),
+    Vector3.new(-262.95, 13.68, -683.80),
+    Vector3.new(-371.83, 12.88, -766.90),
+    Vector3.new(-398.09, 12.69, -683.63),
+    Vector3.new(-111.47, 7.64, -955.5),
+    Vector3.new(-157.78, 14.31, -786.73),
+    Vector3.new(-250.49, 12.00, -770.20),
+    Vector3.new(-455, 22, -896),
+    Vector3.new(-258, 13, -659),
+    Vector3.new(-295, 13, -640),
+    Vector3.new(-300, 10, -526),
+    Vector3.new(-179, 10, -694),
+    Vector3.new(-160, 10, -649),
+    Vector3.new(-312, -29, -522),
+    Vector3.new(-572, 6, -615),
+    Vector3.new(-429, 48, -1605),
+    Vector3.new(-215, 18, -1609), --crystal
+}
+local currentIndex = 1
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+local function teleportToNextPosition()
+    if currentIndex <= #teleportPositions then
+        local targetPosition = teleportPositions[currentIndex]
+        humanoidRootPart.CFrame = CFrame.new(targetPosition)
+        currentIndex = currentIndex + 1
+    else
+    end
+end
+while currentIndex <= #teleportPositions do
+    teleportToNextPosition()
+    wait(1) 
+end
+]]--
